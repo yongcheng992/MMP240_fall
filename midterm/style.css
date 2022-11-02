@@ -1,0 +1,120 @@
+#wrapper{
+  max-width:1200px;
+  margin:0 auto;
+}
+
+header{
+  padding:1em 2em 2em 2em;
+  background-image: url("img/4.png");
+  background-repeat: no-repeat;
+  background-position:left right bottom top;
+  background-size: 1200px;
+}
+
+header button{
+  background-color: lightblue;
+  background-image: url("img/7.svg");
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-position: 3px;
+  padding: 10px;
+  padding-left: 30px;
+  border-radius: 10px;
+  margin-left: 45px;
+}
+
+header button:hover{
+  background-color: yellow;
+}
+
+
+
+header p{
+  width: 250px;
+  color: black;
+  margin-left: 45px;
+}
+nav{
+  background-color: purple;
+  padding: 10px;
+}
+
+nav li{
+  display: inline;
+  border-right: solid 2px #fff;
+  padding:0 1.5em;
+  font-size: 1.5em;
+
+}
+
+nav li:last-child{
+  border: none;
+}
+
+nav a{
+  color:white;
+  text-decoration: none;
+}
+
+
+nav a:hover{
+  color:#a1a1a1;
+  text-decoration: underline;
+}
+
+.col{
+  width: 48%;
+}
+
+.col-left{
+  float: left;
+}
+
+.col-right{
+  float: right;
+}
+
+footer{
+  clear:both;
+}
+
+h2{
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+
+h3{
+  font-weight: bold;
+}
+
+.TV-15{
+  border: solid 1px #000;
+  padding: 0 3px;
+  font-size: smaller;
+}
+
+main{
+  margin-bottom: 3em;
+  overflow: auto;
+}
+
+.episodes-card{
+  width:24%;
+  border: solid 3px purple;
+  border-radius: 5px;
+  margin-bottom: 1.5em;
+}
+
+.episodes{
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.responsive-img{
+  width:100%;
+}
+
+.episodes-card p{
+  padding:0 0.5em;
+}
