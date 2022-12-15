@@ -9,6 +9,9 @@ body{
   font-family:'Dosis', sans-serif;
   margin: 1em;
 }
+footer{
+  font-size: 12px;
+}
 
 #wrapper{
   max-width: 1200px;
@@ -24,16 +27,17 @@ p,h1,h2,h3,nav,article{
 h2, h3,h4{
   color:purple;
 }
-h2:hover{
-  color:orange;
-}
 
-h3:hover{
-  color:green;
-}
 
 p:hover{
   transform: scale(1.02);
+}
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  color:orange;
 }
 
 
@@ -201,7 +205,7 @@ main ul{
    main{
      display: grid;
      grid-template-columns: 1fr 1fr 1fr 1fr;
-     grid-column-gap: 1em;
+     grid-column-gap: 2em;
    }
 
    .news{
